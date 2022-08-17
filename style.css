@@ -418,7 +418,7 @@ input{
 	display: none;
 }
 
-@media screen and (max-width: 1300px){
+@media only screen and (max-width: 1300px){
 	.end-program .box-end-program{
 		width: 350px;
 	}
@@ -442,7 +442,10 @@ input{
 	}
 }
 
-@media screen and (max-width: 768px){
+
+
+
+@media only screen and (max-width:768px){
 	body{
 		font-size: 22px;
 	}
@@ -606,7 +609,9 @@ input{
 	}
 }
 
-@media screen and (max-width: 425px){
+
+
+@media only screen and (max-width: 480px){
 	body{
 		font-size: 18px;
 		line-height: 30px;
